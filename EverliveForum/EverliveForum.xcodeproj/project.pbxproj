@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA1A00B61845014E0068CE7E /* PostDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1A00B51845014E0068CE7E /* PostDetailsViewController.m */; };
+		EA4DE5FD1844A9150026401F /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4DE5FC1844A9150026401F /* RegisterViewController.m */; };
+		EA4DE6001844B3C90026401F /* PostsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4DE5FF1844B3C90026401F /* PostsTableViewController.m */; };
+		EA4DE6031844CB040026401F /* AddPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4DE6021844CB040026401F /* AddPostViewController.m */; };
+		EADC73AE1843DA0400234C2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EADC73AD1843DA0400234C2A /* Foundation.framework */; };
+		EADC73B01843DA0400234C2A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EADC73AF1843DA0400234C2A /* CoreGraphics.framework */; };
+		EADC73B21843DA0400234C2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EADC73B11843DA0400234C2A /* UIKit.framework */; };
+		EADC73B81843DA0400234C2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EADC73B61843DA0400234C2A /* InfoPlist.strings */; };
+		EADC73BA1843DA0400234C2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EADC73B91843DA0400234C2A /* main.m */; };
+		EADC73BE1843DA0400234C2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EADC73BD1843DA0400234C2A /* AppDelegate.m */; };
+		EADC73C11843DA0400234C2A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EADC73BF1843DA0400234C2A /* MainStoryboard.storyboard */; };
+		EADC73C61843DA0400234C2A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EADC73C51843DA0400234C2A /* Images.xcassets */; };
+		EADC73CD1843DA0500234C2A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EADC73CC1843DA0500234C2A /* XCTest.framework */; };
+		EADC73CE1843DA0500234C2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EADC73AD1843DA0400234C2A /* Foundation.framework */; };
+		EADC73CF1843DA0500234C2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EADC73B11843DA0400234C2A /* UIKit.framework */; };
+		EADC73D71843DA0500234C2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EADC73D51843DA0500234C2A /* InfoPlist.strings */; };
+		EADC73D91843DA0500234C2A /* EverliveForumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EADC73D81843DA0500234C2A /* EverliveForumTests.m */; };
+		EADC73E61843DA7600234C2A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EADC73E51843DA7600234C2A /* LoginViewController.m */; };
+		EADC73E91843DBCB00234C2A /* EverliveSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EADC73E81843DBCB00234C2A /* EverliveSDK.framework */; };
+		EADC73EC1843DC6100234C2A /* Tags.m in Sources */ = {isa = PBXBuildFile; fileRef = EADC73EB1843DC6100234C2A /* Tags.m */; };
+		EADC73F01843DC7600234C2A /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = EADC73EF1843DC7600234C2A /* Comment.m */; };
+		EADC73F31843DC8C00234C2A /* Posts.m in Sources */ = {isa = PBXBuildFile; fileRef = EADC73F21843DC8C00234C2A /* Posts.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EADC73D01843DA0500234C2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EADC73A21843DA0400234C2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EADC73A91843DA0400234C2A;
+			remoteInfo = EverliveForum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA1A00B41845014E0068CE7E /* PostDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostDetailsViewController.h; sourceTree = "<group>"; };
+		EA1A00B51845014E0068CE7E /* PostDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostDetailsViewController.m; sourceTree = "<group>"; };
+		EA4DE5FB1844A9150026401F /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		EA4DE5FC1844A9150026401F /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		EA4DE5FE1844B3C90026401F /* PostsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostsTableViewController.h; sourceTree = "<group>"; };
+		EA4DE5FF1844B3C90026401F /* PostsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostsTableViewController.m; sourceTree = "<group>"; };
+		EA4DE6011844CB040026401F /* AddPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPostViewController.h; sourceTree = "<group>"; };
+		EA4DE6021844CB040026401F /* AddPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPostViewController.m; sourceTree = "<group>"; };
+		EADC73AA1843DA0400234C2A /* EverliveForum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EverliveForum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EADC73AD1843DA0400234C2A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EADC73AF1843DA0400234C2A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EADC73B11843DA0400234C2A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EADC73B51843DA0400234C2A /* EverliveForum-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EverliveForum-Info.plist"; sourceTree = "<group>"; };
+		EADC73B71843DA0400234C2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EADC73B91843DA0400234C2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EADC73BB1843DA0400234C2A /* EverliveForum-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EverliveForum-Prefix.pch"; sourceTree = "<group>"; };
+		EADC73BC1843DA0400234C2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EADC73BD1843DA0400234C2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EADC73C01843DA0400234C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		EADC73C51843DA0400234C2A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EADC73CB1843DA0500234C2A /* EverliveForumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EverliveForumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EADC73CC1843DA0500234C2A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EADC73D41843DA0500234C2A /* EverliveForumTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EverliveForumTests-Info.plist"; sourceTree = "<group>"; };
+		EADC73D61843DA0500234C2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EADC73D81843DA0500234C2A /* EverliveForumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EverliveForumTests.m; sourceTree = "<group>"; };
+		EADC73E41843DA7600234C2A /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = EverliveForum/LoginViewController.h; sourceTree = SOURCE_ROOT; };
+		EADC73E51843DA7600234C2A /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = EverliveForum/LoginViewController.m; sourceTree = SOURCE_ROOT; };
+		EADC73E81843DBCB00234C2A /* EverliveSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EverliveSDK.framework; sourceTree = "<group>"; };
+		EADC73EA1843DC6100234C2A /* Tags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tags.h; sourceTree = "<group>"; };
+		EADC73EB1843DC6100234C2A /* Tags.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tags.m; sourceTree = "<group>"; };
+		EADC73EE1843DC7600234C2A /* Comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comment.h; sourceTree = "<group>"; };
+		EADC73EF1843DC7600234C2A /* Comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comment.m; sourceTree = "<group>"; };
+		EADC73F11843DC8C00234C2A /* Posts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Posts.h; sourceTree = "<group>"; };
+		EADC73F21843DC8C00234C2A /* Posts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Posts.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EADC73A71843DA0400234C2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EADC73B01843DA0400234C2A /* CoreGraphics.framework in Frameworks */,
+				EADC73E91843DBCB00234C2A /* EverliveSDK.framework in Frameworks */,
+				EADC73B21843DA0400234C2A /* UIKit.framework in Frameworks */,
+				EADC73AE1843DA0400234C2A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADC73C81843DA0500234C2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EADC73CD1843DA0500234C2A /* XCTest.framework in Frameworks */,
+				EADC73CF1843DA0500234C2A /* UIKit.framework in Frameworks */,
+				EADC73CE1843DA0500234C2A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAB8DCB2184527BE008061FA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EADC73E41843DA7600234C2A /* LoginViewController.h */,
+				EADC73E51843DA7600234C2A /* LoginViewController.m */,
+				EA4DE5FB1844A9150026401F /* RegisterViewController.h */,
+				EA4DE5FC1844A9150026401F /* RegisterViewController.m */,
+				EA4DE5FE1844B3C90026401F /* PostsTableViewController.h */,
+				EA4DE5FF1844B3C90026401F /* PostsTableViewController.m */,
+				EA4DE6011844CB040026401F /* AddPostViewController.h */,
+				EA4DE6021844CB040026401F /* AddPostViewController.m */,
+				EA1A00B41845014E0068CE7E /* PostDetailsViewController.h */,
+				EA1A00B51845014E0068CE7E /* PostDetailsViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		EADC73A11843DA0400234C2A = {
+			isa = PBXGroup;
+			children = (
+				EADC73B31843DA0400234C2A /* EverliveForum */,
+				EADC73D21843DA0500234C2A /* EverliveForumTests */,
+				EADC73AC1843DA0400234C2A /* Frameworks */,
+				EADC73AB1843DA0400234C2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EADC73AB1843DA0400234C2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EADC73AA1843DA0400234C2A /* EverliveForum.app */,
+				EADC73CB1843DA0500234C2A /* EverliveForumTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EADC73AC1843DA0400234C2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EADC73E81843DBCB00234C2A /* EverliveSDK.framework */,
+				EADC73AD1843DA0400234C2A /* Foundation.framework */,
+				EADC73AF1843DA0400234C2A /* CoreGraphics.framework */,
+				EADC73B11843DA0400234C2A /* UIKit.framework */,
+				EADC73CC1843DA0500234C2A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EADC73B31843DA0400234C2A /* EverliveForum */ = {
+			isa = PBXGroup;
+			children = (
+				EADC73BC1843DA0400234C2A /* AppDelegate.h */,
+				EADC73BD1843DA0400234C2A /* AppDelegate.m */,
+				EADC73BF1843DA0400234C2A /* MainStoryboard.storyboard */,
+				EADC73C51843DA0400234C2A /* Images.xcassets */,
+				EADC73B41843DA0400234C2A /* Supporting Files */,
+				EAB8DCB2184527BE008061FA /* Controllers */,
+				EADC73ED1843DC6800234C2A /* Models */,
+			);
+			path = EverliveForum;
+			sourceTree = "<group>";
+		};
+		EADC73B41843DA0400234C2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EADC73B51843DA0400234C2A /* EverliveForum-Info.plist */,
+				EADC73B61843DA0400234C2A /* InfoPlist.strings */,
+				EADC73B91843DA0400234C2A /* main.m */,
+				EADC73BB1843DA0400234C2A /* EverliveForum-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EADC73D21843DA0500234C2A /* EverliveForumTests */ = {
+			isa = PBXGroup;
+			children = (
+				EADC73D81843DA0500234C2A /* EverliveForumTests.m */,
+				EADC73D31843DA0500234C2A /* Supporting Files */,
+			);
+			path = EverliveForumTests;
+			sourceTree = "<group>";
+		};
+		EADC73D31843DA0500234C2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EADC73D41843DA0500234C2A /* EverliveForumTests-Info.plist */,
+				EADC73D51843DA0500234C2A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EADC73ED1843DC6800234C2A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EADC73EA1843DC6100234C2A /* Tags.h */,
+				EADC73EB1843DC6100234C2A /* Tags.m */,
+				EADC73EE1843DC7600234C2A /* Comment.h */,
+				EADC73EF1843DC7600234C2A /* Comment.m */,
+				EADC73F11843DC8C00234C2A /* Posts.h */,
+				EADC73F21843DC8C00234C2A /* Posts.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EADC73A91843DA0400234C2A /* EverliveForum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EADC73DC1843DA0500234C2A /* Build configuration list for PBXNativeTarget "EverliveForum" */;
+			buildPhases = (
+				EADC73A61843DA0400234C2A /* Sources */,
+				EADC73A71843DA0400234C2A /* Frameworks */,
+				EADC73A81843DA0400234C2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EverliveForum;
+			productName = EverliveForum;
+			productReference = EADC73AA1843DA0400234C2A /* EverliveForum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EADC73CA1843DA0500234C2A /* EverliveForumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EADC73DF1843DA0500234C2A /* Build configuration list for PBXNativeTarget "EverliveForumTests" */;
+			buildPhases = (
+				EADC73C71843DA0500234C2A /* Sources */,
+				EADC73C81843DA0500234C2A /* Frameworks */,
+				EADC73C91843DA0500234C2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EADC73D11843DA0500234C2A /* PBXTargetDependency */,
+			);
+			name = EverliveForumTests;
+			productName = EverliveForumTests;
+			productReference = EADC73CB1843DA0500234C2A /* EverliveForumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EADC73A21843DA0400234C2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = com.none;
+				TargetAttributes = {
+					EADC73CA1843DA0500234C2A = {
+						TestTargetID = EADC73A91843DA0400234C2A;
+					};
+				};
+			};
+			buildConfigurationList = EADC73A51843DA0400234C2A /* Build configuration list for PBXProject "EverliveForum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EADC73A11843DA0400234C2A;
+			productRefGroup = EADC73AB1843DA0400234C2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EADC73A91843DA0400234C2A /* EverliveForum */,
+				EADC73CA1843DA0500234C2A /* EverliveForumTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EADC73A81843DA0400234C2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EADC73C61843DA0400234C2A /* Images.xcassets in Resources */,
+				EADC73B81843DA0400234C2A /* InfoPlist.strings in Resources */,
+				EADC73C11843DA0400234C2A /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADC73C91843DA0500234C2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EADC73D71843DA0500234C2A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EADC73A61843DA0400234C2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EADC73EC1843DC6100234C2A /* Tags.m in Sources */,
+				EADC73F01843DC7600234C2A /* Comment.m in Sources */,
+				EADC73F31843DC8C00234C2A /* Posts.m in Sources */,
+				EADC73E61843DA7600234C2A /* LoginViewController.m in Sources */,
+				EA4DE5FD1844A9150026401F /* RegisterViewController.m in Sources */,
+				EA4DE6031844CB040026401F /* AddPostViewController.m in Sources */,
+				EA4DE6001844B3C90026401F /* PostsTableViewController.m in Sources */,
+				EA1A00B61845014E0068CE7E /* PostDetailsViewController.m in Sources */,
+				EADC73BE1843DA0400234C2A /* AppDelegate.m in Sources */,
+				EADC73BA1843DA0400234C2A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADC73C71843DA0500234C2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EADC73D91843DA0500234C2A /* EverliveForumTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EADC73D11843DA0500234C2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EADC73A91843DA0400234C2A /* EverliveForum */;
+			targetProxy = EADC73D01843DA0500234C2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EADC73B61843DA0400234C2A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EADC73B71843DA0400234C2A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EADC73BF1843DA0400234C2A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EADC73C01843DA0400234C2A /* Base */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		EADC73D51843DA0500234C2A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EADC73D61843DA0500234C2A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EADC73DA1843DA0500234C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EADC73DB1843DA0500234C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EADC73DD1843DA0500234C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/tony/Documents/iOS-Projects/EverliveForum",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EverliveForum/EverliveForum-Prefix.pch";
+				INFOPLIST_FILE = "EverliveForum/EverliveForum-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EADC73DE1843DA0500234C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/tony/Documents/iOS-Projects/EverliveForum",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EverliveForum/EverliveForum-Prefix.pch";
+				INFOPLIST_FILE = "EverliveForum/EverliveForum-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EADC73E01843DA0500234C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EverliveForum.app/EverliveForum";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EverliveForum/EverliveForum-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EverliveForumTests/EverliveForumTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EADC73E11843DA0500234C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EverliveForum.app/EverliveForum";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EverliveForum/EverliveForum-Prefix.pch";
+				INFOPLIST_FILE = "EverliveForumTests/EverliveForumTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EADC73A51843DA0400234C2A /* Build configuration list for PBXProject "EverliveForum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADC73DA1843DA0500234C2A /* Debug */,
+				EADC73DB1843DA0500234C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EADC73DC1843DA0500234C2A /* Build configuration list for PBXNativeTarget "EverliveForum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADC73DD1843DA0500234C2A /* Debug */,
+				EADC73DE1843DA0500234C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EADC73DF1843DA0500234C2A /* Build configuration list for PBXNativeTarget "EverliveForumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADC73E01843DA0500234C2A /* Debug */,
+				EADC73E11843DA0500234C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EADC73A21843DA0400234C2A /* Project object */;
+}
