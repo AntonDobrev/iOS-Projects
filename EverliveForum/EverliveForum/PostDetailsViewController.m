@@ -32,19 +32,13 @@
     self.postContentTextView.text = [self.currentPost content];
     self.postContentTextView.editable = NO;
     
-    NSDateFormatter *df = [[NSDateFormatter alloc]init];
-    [df setDateFormat:@"yyyy-MM-dd"];
+   // NSDateFormatter *df = [[NSDateFormatter alloc]init];
+   // [df setDateFormat:@"yyyy-MM-dd"];
    // dateField.text = [df stringFromDate:[self.currentPost createdAt]];
 }
 
 - (void)viewDidUnload
 {
-//    [self setTitleField:nil];
-//    [self setAuthorField:nil];
-//    [self setDateField:nil];
-//    [self setEditButton:nil];
-//    [self setDoneButton:nil];
-//    [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
 @end

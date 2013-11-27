@@ -44,17 +44,13 @@
                     [self performSegueWithIdentifier:@"ShowAllPosts" sender:self];
                 }];
             }
-            else{
-                UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Registration Failed" message:error.domain delegate:self cancelButtonTitle:nil otherButtonTitles:@"Ok", nil];
+            else {
+                UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Registration Failed" message:error.domain delegate:self cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
                 [alert show];
             }
         }];
     }
-
+    
 }
-
-- (void)buttonClicked:(id)sender
-{
-    }
 
 @end

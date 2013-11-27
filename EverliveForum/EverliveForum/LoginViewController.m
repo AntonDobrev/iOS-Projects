@@ -20,9 +20,6 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    self.usernameTexField.text = @"";
-    self.passwordTextField.text = @"";
-    
 }
 - (IBAction)loginButtonTap:(id)sender {
     
@@ -47,8 +44,8 @@
     if (error == nil && [user isAuthenticated]){
         [self performSegueWithIdentifier:@"ShowAllPosts" sender:self];
     }
-    else{
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Invalid Credentials" message:error.domain delegate:self cancelButtonTitle:nil otherButtonTitles:@"Ok", nil];
+    else {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Invalid Credentials" message:error.domain delegate:self cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
         [alert show];
     }
 }

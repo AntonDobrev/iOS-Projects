@@ -32,9 +32,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.navigationItem.title = @"All posts";
     
     self.posts = [[NSMutableArray alloc]init];
-    
+
     self.postsTableView.dataSource = self;
     self.postsTableView.delegate = self;
 }
@@ -49,9 +50,7 @@
     
     [self.posts removeAllObjects];
     [self.postsTableView reloadData];
-    //   self.posts = [[NSMutableArray alloc]init];
-    
-    
+       
     if ([[EVUser currentUser] isAuthenticated]){
         
         [Posts fetchAll:^(NSArray *result, NSError *error) {
@@ -114,15 +113,12 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     NSString *postIdentifier = @"Post";
-    Posts *postEntity = [self.posts objectAtIndex:indexPath.item];
     
    // NSLog(@"Title in array: %@", [[self.posts objectAtIndex:indexPath.item] title]);
     UITableViewCell  * cell = [tableView dequeueReusableCellWithIdentifier:postIdentifier];
-    
-    
     cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:postIdentifier];
     
-  // cell.selectionStyle = UITableViewCellSelectionStyleDefault;
+    Posts *postEntity = [self.posts objectAtIndex:indexPath.item];
     cell.textLabel.text = postEntity.title;
     
     return cell;
@@ -135,21 +131,13 @@
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-//    if ([[segue identifier] isEqualToString:@"addCourse"]) {
-//        AddCourseViewController *addCourseController = (AddCourseViewController*)[segue destinationViewController];
-//        addCourseController.delegate = self;
-//        
-//        Course *course = [NSEntityDescription insertNewObjectForEntityForName:@"Course" inManagedObjectContext:self.managedObjectContext];
-//        addCourseController.currentCourse = course;
-//    }
-    
     if ([[segue identifier] isEqualToString:@"ShowPostDetails"]) {
         PostDetailsViewController *pdvc = (PostDetailsViewController *) [segue destinationViewController];
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        
         Posts *selectedPost = (Posts *) [self.posts objectAtIndex:indexPath.item];
         pdvc.currentPost = selectedPost;
     }
-    
 }
 
 /*
