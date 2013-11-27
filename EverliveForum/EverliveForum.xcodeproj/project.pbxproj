@@ -51,7 +51,7 @@
 		EA4DE5FF1844B3C90026401F /* PostsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostsTableViewController.m; sourceTree = "<group>"; };
 		EA4DE6011844CB040026401F /* AddPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPostViewController.h; sourceTree = "<group>"; };
 		EA4DE6021844CB040026401F /* AddPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPostViewController.m; sourceTree = "<group>"; };
-		EA5259FF1845DDAF006570F0 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.md; sourceTree = "<group>"; };
+		EA5259FF1845DDAF006570F0 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = readme.md; path = EverliveForum/readme.md; sourceTree = "<group>"; };
 		EADC73AA1843DA0400234C2A /* EverliveForum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EverliveForum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EADC73AD1843DA0400234C2A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EADC73AF1843DA0400234C2A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -129,6 +129,7 @@
 				EADC73D21843DA0500234C2A /* EverliveForumTests */,
 				EADC73AC1843DA0400234C2A /* Frameworks */,
 				EADC73AB1843DA0400234C2A /* Products */,
+				EA5259FF1845DDAF006570F0 /* readme.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -163,7 +164,6 @@
 				EADC73B41843DA0400234C2A /* Supporting Files */,
 				EAB8DCB2184527BE008061FA /* Controllers */,
 				EADC73ED1843DC6800234C2A /* Models */,
-				EA5259FF1845DDAF006570F0 /* readme.md */,
 			);
 			path = EverliveForum;
 			sourceTree = "<group>";
