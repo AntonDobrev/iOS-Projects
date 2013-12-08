@@ -19,7 +19,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+    // Do any additional setup after loading the view.
 }
 - (IBAction)loginButtonTap:(id)sender {
     
@@ -42,6 +42,8 @@
 {
     
     if (error == nil && [user isAuthenticated]){
+        _usernameTexField.text = nil;
+        _passwordTextField.text = nil;
         [self performSegueWithIdentifier:@"ShowAllPosts" sender:self];
     }
     else {
