@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAADC2141930F10A00D18006 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAADC2131930F10A00D18006 /* Foundation.framework */; };
+		EAADC2161930F10A00D18006 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAADC2151930F10A00D18006 /* CoreGraphics.framework */; };
+		EAADC2181930F10A00D18006 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAADC2171930F10A00D18006 /* UIKit.framework */; };
+		EAADC21E1930F10B00D18006 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAADC21C1930F10B00D18006 /* InfoPlist.strings */; };
+		EAADC2201930F10B00D18006 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAADC21F1930F10B00D18006 /* main.m */; };
+		EAADC2241930F10B00D18006 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAADC2231930F10B00D18006 /* AppDelegate.m */; };
+		EAADC2271930F10B00D18006 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAADC2251930F10B00D18006 /* Main.storyboard */; };
+		EAADC22A1930F10B00D18006 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAADC2291930F10B00D18006 /* MasterViewController.m */; };
+		EAADC22D1930F10B00D18006 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAADC22C1930F10B00D18006 /* DetailViewController.m */; };
+		EAADC22F1930F10B00D18006 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAADC22E1930F10B00D18006 /* Images.xcassets */; };
+		EAADC2361930F10B00D18006 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAADC2351930F10B00D18006 /* XCTest.framework */; };
+		EAADC2371930F10B00D18006 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAADC2131930F10A00D18006 /* Foundation.framework */; };
+		EAADC2381930F10B00D18006 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAADC2171930F10A00D18006 /* UIKit.framework */; };
+		EAADC2401930F10B00D18006 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAADC23E1930F10B00D18006 /* InfoPlist.strings */; };
+		EAADC2421930F10C00D18006 /* iOSNorthwindTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAADC2411930F10C00D18006 /* iOSNorthwindTests.m */; };
+		EAADC2501931F0B300D18006 /* Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = EAADC24F1931F0B300D18006 /* Categories.m */; };
+		EAADC260193236B300D18006 /* EverliveSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAADC25F193236B200D18006 /* EverliveSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAADC2391930F10B00D18006 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAADC2081930F10A00D18006 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAADC20F1930F10A00D18006;
+			remoteInfo = iOSNorthwind;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAADC2101930F10A00D18006 /* iOSNorthwind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSNorthwind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAADC2131930F10A00D18006 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EAADC2151930F10A00D18006 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EAADC2171930F10A00D18006 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EAADC21B1930F10B00D18006 /* iOSNorthwind-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSNorthwind-Info.plist"; sourceTree = "<group>"; };
+		EAADC21D1930F10B00D18006 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EAADC21F1930F10B00D18006 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAADC2211930F10B00D18006 /* iOSNorthwind-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSNorthwind-Prefix.pch"; sourceTree = "<group>"; };
+		EAADC2221930F10B00D18006 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EAADC2231930F10B00D18006 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EAADC2261930F10B00D18006 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAADC2281930F10B00D18006 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		EAADC2291930F10B00D18006 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		EAADC22B1930F10B00D18006 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		EAADC22C1930F10B00D18006 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		EAADC22E1930F10B00D18006 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EAADC2341930F10B00D18006 /* iOSNorthwindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSNorthwindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAADC2351930F10B00D18006 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EAADC23D1930F10B00D18006 /* iOSNorthwindTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSNorthwindTests-Info.plist"; sourceTree = "<group>"; };
+		EAADC23F1930F10B00D18006 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EAADC2411930F10C00D18006 /* iOSNorthwindTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSNorthwindTests.m; sourceTree = "<group>"; };
+		EAADC24E1931F0B300D18006 /* Categories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Categories.h; path = Models/Categories.h; sourceTree = "<group>"; };
+		EAADC24F1931F0B300D18006 /* Categories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Categories.m; path = Models/Categories.m; sourceTree = "<group>"; };
+		EAADC25F193236B200D18006 /* EverliveSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EverliveSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAADC20D1930F10A00D18006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAADC2161930F10A00D18006 /* CoreGraphics.framework in Frameworks */,
+				EAADC260193236B300D18006 /* EverliveSDK.framework in Frameworks */,
+				EAADC2181930F10A00D18006 /* UIKit.framework in Frameworks */,
+				EAADC2141930F10A00D18006 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAADC2311930F10B00D18006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAADC2361930F10B00D18006 /* XCTest.framework in Frameworks */,
+				EAADC2381930F10B00D18006 /* UIKit.framework in Frameworks */,
+				EAADC2371930F10B00D18006 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAADC2071930F10900D18006 = {
+			isa = PBXGroup;
+			children = (
+				EAADC2191930F10A00D18006 /* iOSNorthwind */,
+				EAADC23B1930F10B00D18006 /* iOSNorthwindTests */,
+				EAADC2121930F10A00D18006 /* Frameworks */,
+				EAADC2111930F10A00D18006 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAADC2111930F10A00D18006 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAADC2101930F10A00D18006 /* iOSNorthwind.app */,
+				EAADC2341930F10B00D18006 /* iOSNorthwindTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAADC2121930F10A00D18006 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAADC25F193236B200D18006 /* EverliveSDK.framework */,
+				EAADC2131930F10A00D18006 /* Foundation.framework */,
+				EAADC2151930F10A00D18006 /* CoreGraphics.framework */,
+				EAADC2171930F10A00D18006 /* UIKit.framework */,
+				EAADC2351930F10B00D18006 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAADC2191930F10A00D18006 /* iOSNorthwind */ = {
+			isa = PBXGroup;
+			children = (
+				EAADC2221930F10B00D18006 /* AppDelegate.h */,
+				EAADC2231930F10B00D18006 /* AppDelegate.m */,
+				EAADC2251930F10B00D18006 /* Main.storyboard */,
+				EAADC2281930F10B00D18006 /* MasterViewController.h */,
+				EAADC2291930F10B00D18006 /* MasterViewController.m */,
+				EAADC22B1930F10B00D18006 /* DetailViewController.h */,
+				EAADC22C1930F10B00D18006 /* DetailViewController.m */,
+				EAADC22E1930F10B00D18006 /* Images.xcassets */,
+				EAADC21A1930F10B00D18006 /* Supporting Files */,
+				EAADC24E1931F0B300D18006 /* Categories.h */,
+				EAADC24F1931F0B300D18006 /* Categories.m */,
+			);
+			path = iOSNorthwind;
+			sourceTree = "<group>";
+		};
+		EAADC21A1930F10B00D18006 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAADC21B1930F10B00D18006 /* iOSNorthwind-Info.plist */,
+				EAADC21C1930F10B00D18006 /* InfoPlist.strings */,
+				EAADC21F1930F10B00D18006 /* main.m */,
+				EAADC2211930F10B00D18006 /* iOSNorthwind-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAADC23B1930F10B00D18006 /* iOSNorthwindTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAADC2411930F10C00D18006 /* iOSNorthwindTests.m */,
+				EAADC23C1930F10B00D18006 /* Supporting Files */,
+			);
+			path = iOSNorthwindTests;
+			sourceTree = "<group>";
+		};
+		EAADC23C1930F10B00D18006 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAADC23D1930F10B00D18006 /* iOSNorthwindTests-Info.plist */,
+				EAADC23E1930F10B00D18006 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAADC20F1930F10A00D18006 /* iOSNorthwind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAADC2451930F10C00D18006 /* Build configuration list for PBXNativeTarget "iOSNorthwind" */;
+			buildPhases = (
+				EAADC20C1930F10A00D18006 /* Sources */,
+				EAADC20D1930F10A00D18006 /* Frameworks */,
+				EAADC20E1930F10A00D18006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSNorthwind;
+			productName = iOSNorthwind;
+			productReference = EAADC2101930F10A00D18006 /* iOSNorthwind.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAADC2331930F10B00D18006 /* iOSNorthwindTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAADC2481930F10C00D18006 /* Build configuration list for PBXNativeTarget "iOSNorthwindTests" */;
+			buildPhases = (
+				EAADC2301930F10B00D18006 /* Sources */,
+				EAADC2311930F10B00D18006 /* Frameworks */,
+				EAADC2321930F10B00D18006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAADC23A1930F10B00D18006 /* PBXTargetDependency */,
+			);
+			name = iOSNorthwindTests;
+			productName = iOSNorthwindTests;
+			productReference = EAADC2341930F10B00D18006 /* iOSNorthwindTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAADC2081930F10A00D18006 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = com.dobrev.iosnorthwind;
+				TargetAttributes = {
+					EAADC2331930F10B00D18006 = {
+						TestTargetID = EAADC20F1930F10A00D18006;
+					};
+				};
+			};
+			buildConfigurationList = EAADC20B1930F10A00D18006 /* Build configuration list for PBXProject "iOSNorthwind" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAADC2071930F10900D18006;
+			productRefGroup = EAADC2111930F10A00D18006 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAADC20F1930F10A00D18006 /* iOSNorthwind */,
+				EAADC2331930F10B00D18006 /* iOSNorthwindTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAADC20E1930F10A00D18006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAADC22F1930F10B00D18006 /* Images.xcassets in Resources */,
+				EAADC21E1930F10B00D18006 /* InfoPlist.strings in Resources */,
+				EAADC2271930F10B00D18006 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAADC2321930F10B00D18006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAADC2401930F10B00D18006 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAADC20C1930F10A00D18006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAADC2241930F10B00D18006 /* AppDelegate.m in Sources */,
+				EAADC22A1930F10B00D18006 /* MasterViewController.m in Sources */,
+				EAADC2201930F10B00D18006 /* main.m in Sources */,
+				EAADC2501931F0B300D18006 /* Categories.m in Sources */,
+				EAADC22D1930F10B00D18006 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAADC2301930F10B00D18006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAADC2421930F10C00D18006 /* iOSNorthwindTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAADC23A1930F10B00D18006 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAADC20F1930F10A00D18006 /* iOSNorthwind */;
+			targetProxy = EAADC2391930F10B00D18006 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAADC21C1930F10B00D18006 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAADC21D1930F10B00D18006 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EAADC2251930F10B00D18006 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAADC2261930F10B00D18006 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAADC23E1930F10B00D18006 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAADC23F1930F10B00D18006 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAADC2431930F10C00D18006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos7.1;
+			};
+			name = Debug;
+		};
+		EAADC2441930F10C00D18006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos7.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAADC2461930F10C00D18006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSNorthwind/iOSNorthwind-Prefix.pch";
+				INFOPLIST_FILE = "iOSNorthwind/iOSNorthwind-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos7.1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EAADC2471930F10C00D18006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSNorthwind/iOSNorthwind-Prefix.pch";
+				INFOPLIST_FILE = "iOSNorthwind/iOSNorthwind-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos7.1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EAADC2491930F10C00D18006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSNorthwind.app/iOSNorthwind";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSNorthwind/iOSNorthwind-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOSNorthwindTests/iOSNorthwindTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EAADC24A1930F10C00D18006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSNorthwind.app/iOSNorthwind";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSNorthwind/iOSNorthwind-Prefix.pch";
+				INFOPLIST_FILE = "iOSNorthwindTests/iOSNorthwindTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAADC20B1930F10A00D18006 /* Build configuration list for PBXProject "iOSNorthwind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAADC2431930F10C00D18006 /* Debug */,
+				EAADC2441930F10C00D18006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAADC2451930F10C00D18006 /* Build configuration list for PBXNativeTarget "iOSNorthwind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAADC2461930F10C00D18006 /* Debug */,
+				EAADC2471930F10C00D18006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAADC2481930F10C00D18006 /* Build configuration list for PBXNativeTarget "iOSNorthwindTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAADC2491930F10C00D18006 /* Debug */,
+				EAADC24A1930F10C00D18006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAADC2081930F10A00D18006 /* Project object */;
+}

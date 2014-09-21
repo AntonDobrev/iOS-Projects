@@ -17,5 +17,8 @@
 @property (strong, nonatomic) IBOutlet UILabel *emailRegisterLabel;
 @property (strong, nonatomic) IBOutlet UITextField *emailRegisterTextField;
 @property (strong, nonatomic) IBOutlet UIButton *confirmRegisterButton;
+@property (strong, nonatomic) IBOutlet UILabel *aboutLabel;
+@property (strong, nonatomic) IBOutlet UITextField *aboutTextField;
+@property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
 
 @end

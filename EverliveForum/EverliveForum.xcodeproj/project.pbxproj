@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EA1A00B61845014E0068CE7E /* PostDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1A00B51845014E0068CE7E /* PostDetailsViewController.m */; };
+		EA24F8BA18DDAE3D0086BBB8 /* EverliveSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA24F8B918DDAE3D0086BBB8 /* EverliveSDK.framework */; };
 		EA4DE5FD1844A9150026401F /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4DE5FC1844A9150026401F /* RegisterViewController.m */; };
 		EA4DE6001844B3C90026401F /* PostsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4DE5FF1844B3C90026401F /* PostsTableViewController.m */; };
 		EA4DE6031844CB040026401F /* AddPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4DE6021844CB040026401F /* AddPostViewController.m */; };
@@ -26,7 +27,6 @@
 		EADC73D71843DA0500234C2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EADC73D51843DA0500234C2A /* InfoPlist.strings */; };
 		EADC73D91843DA0500234C2A /* EverliveForumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EADC73D81843DA0500234C2A /* EverliveForumTests.m */; };
 		EADC73E61843DA7600234C2A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EADC73E51843DA7600234C2A /* LoginViewController.m */; };
-		EADC73E91843DBCB00234C2A /* EverliveSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EADC73E81843DBCB00234C2A /* EverliveSDK.framework */; };
 		EADC73EC1843DC6100234C2A /* Tags.m in Sources */ = {isa = PBXBuildFile; fileRef = EADC73EB1843DC6100234C2A /* Tags.m */; };
 		EADC73F01843DC7600234C2A /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = EADC73EF1843DC7600234C2A /* Comment.m */; };
 		EADC73F31843DC8C00234C2A /* Posts.m in Sources */ = {isa = PBXBuildFile; fileRef = EADC73F21843DC8C00234C2A /* Posts.m */; };
@@ -45,6 +45,7 @@
 /* Begin PBXFileReference section */
 		EA1A00B41845014E0068CE7E /* PostDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostDetailsViewController.h; sourceTree = "<group>"; };
 		EA1A00B51845014E0068CE7E /* PostDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostDetailsViewController.m; sourceTree = "<group>"; };
+		EA24F8B918DDAE3D0086BBB8 /* EverliveSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EverliveSDK.framework; sourceTree = "<group>"; };
 		EA4DE5FB1844A9150026401F /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		EA4DE5FC1844A9150026401F /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		EA4DE5FE1844B3C90026401F /* PostsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostsTableViewController.h; sourceTree = "<group>"; };
@@ -71,7 +72,6 @@
 		EADC73D81843DA0500234C2A /* EverliveForumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EverliveForumTests.m; sourceTree = "<group>"; };
 		EADC73E41843DA7600234C2A /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = EverliveForum/LoginViewController.h; sourceTree = SOURCE_ROOT; };
 		EADC73E51843DA7600234C2A /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = EverliveForum/LoginViewController.m; sourceTree = SOURCE_ROOT; };
-		EADC73E81843DBCB00234C2A /* EverliveSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EverliveSDK.framework; sourceTree = "<group>"; };
 		EADC73EA1843DC6100234C2A /* Tags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tags.h; sourceTree = "<group>"; };
 		EADC73EB1843DC6100234C2A /* Tags.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tags.m; sourceTree = "<group>"; };
 		EADC73EE1843DC7600234C2A /* Comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comment.h; sourceTree = "<group>"; };
@@ -86,7 +86,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EADC73B01843DA0400234C2A /* CoreGraphics.framework in Frameworks */,
-				EADC73E91843DBCB00234C2A /* EverliveSDK.framework in Frameworks */,
+				EA24F8BA18DDAE3D0086BBB8 /* EverliveSDK.framework in Frameworks */,
 				EADC73B21843DA0400234C2A /* UIKit.framework in Frameworks */,
 				EADC73AE1843DA0400234C2A /* Foundation.framework in Frameworks */,
 			);
@@ -145,7 +145,7 @@
 		EADC73AC1843DA0400234C2A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EADC73E81843DBCB00234C2A /* EverliveSDK.framework */,
+				EA24F8B918DDAE3D0086BBB8 /* EverliveSDK.framework */,
 				EADC73AD1843DA0400234C2A /* Foundation.framework */,
 				EADC73AF1843DA0400234C2A /* CoreGraphics.framework */,
 				EADC73B11843DA0400234C2A /* UIKit.framework */,
@@ -204,8 +204,8 @@
 				EADC73EB1843DC6100234C2A /* Tags.m */,
 				EADC73EE1843DC7600234C2A /* Comment.h */,
 				EADC73EF1843DC7600234C2A /* Comment.m */,
-				EADC73F11843DC8C00234C2A /* Posts.h */,
 				EADC73F21843DC8C00234C2A /* Posts.m */,
+				EADC73F11843DC8C00234C2A /* Posts.h */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -254,7 +254,7 @@
 		EADC73A21843DA0400234C2A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = com.none;
 				TargetAttributes = {
 					EADC73CA1843DA0500234C2A = {
@@ -371,7 +371,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -402,6 +401,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-objC";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -410,7 +410,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -434,6 +433,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-objC";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -447,6 +448,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/tony/Documents/iOS-Projects/EverliveForum",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EverliveForum/EverliveForum-Prefix.pch";
@@ -464,6 +466,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/tony/Documents/iOS-Projects/EverliveForum",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EverliveForum/EverliveForum-Prefix.pch";
@@ -476,7 +479,6 @@
 		EADC73E01843DA0500234C2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EverliveForum.app/EverliveForum";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -499,7 +501,6 @@
 		EADC73E11843DA0500234C2A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EverliveForum.app/EverliveForum";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

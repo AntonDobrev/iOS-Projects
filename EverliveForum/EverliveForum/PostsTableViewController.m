@@ -53,6 +53,13 @@
        
     if ([[EVUser currentUser] isAuthenticated]){
         
+        EVDataStore *ds = [[EVDataStore alloc]init];
+        
+        [ds fetchAll:[Posts class] block:^(NSArray *result, NSError *error) {
+            
+        }]
+        
+        
         [Posts fetchAll:^(NSArray *result, NSError *error) {
             
             __block int addedPostsCount = 1;

@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAA73FE119CEB9B900FF9AC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA73FE019CEB9B900FF9AC8 /* AppDelegate.swift */; };
+		EAA73FE319CEB9B900FF9AC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA73FE219CEB9B900FF9AC8 /* ViewController.swift */; };
+		EAA73FE619CEB9B900FF9AC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAA73FE419CEB9B900FF9AC8 /* Main.storyboard */; };
+		EAA73FE819CEB9B900FF9AC8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAA73FE719CEB9B900FF9AC8 /* Images.xcassets */; };
+		EAA73FEB19CEB9B900FF9AC8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAA73FE919CEB9B900FF9AC8 /* LaunchScreen.xib */; };
+		EAA73FF719CEB9B900FF9AC8 /* SwiftEverliveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA73FF619CEB9B900FF9AC8 /* SwiftEverliveTests.swift */; };
+		EAA7400119CEBACB00FF9AC8 /* EverliveSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA7400019CEBACB00FF9AC8 /* EverliveSDK.framework */; };
+		EAA7400E19CF128800FF9AC8 /* Activities.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA7400C19CF128800FF9AC8 /* Activities.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAA73FF119CEB9B900FF9AC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAA73FD319CEB9B900FF9AC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAA73FDA19CEB9B900FF9AC8;
+			remoteInfo = SwiftEverlive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAA73FDB19CEB9B900FF9AC8 /* SwiftEverlive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftEverlive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA73FDF19CEB9B900FF9AC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAA73FE019CEB9B900FF9AC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EAA73FE219CEB9B900FF9AC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EAA73FE519CEB9B900FF9AC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAA73FE719CEB9B900FF9AC8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EAA73FEA19CEB9B900FF9AC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EAA73FF019CEB9B900FF9AC8 /* SwiftEverliveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftEverliveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA73FF519CEB9B900FF9AC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAA73FF619CEB9B900FF9AC8 /* SwiftEverliveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftEverliveTests.swift; sourceTree = "<group>"; };
+		EAA7400019CEBACB00FF9AC8 /* EverliveSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EverliveSDK.framework; sourceTree = "<group>"; };
+		EAA7400219CEBCAF00FF9AC8 /* EverliveSdkBridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EverliveSdkBridgingHeader.h; sourceTree = "<group>"; };
+		EAA7400C19CF128800FF9AC8 /* Activities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Activities.m; sourceTree = "<group>"; };
+		EAA7400D19CF128800FF9AC8 /* Activities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Activities.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAA73FD819CEB9B900FF9AC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA7400119CEBACB00FF9AC8 /* EverliveSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA73FED19CEB9B900FF9AC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAA73FD219CEB9B900FF9AC8 = {
+			isa = PBXGroup;
+			children = (
+				EAA7400219CEBCAF00FF9AC8 /* EverliveSdkBridgingHeader.h */,
+				EAA7400019CEBACB00FF9AC8 /* EverliveSDK.framework */,
+				EAA73FDD19CEB9B900FF9AC8 /* SwiftEverlive */,
+				EAA73FF319CEB9B900FF9AC8 /* SwiftEverliveTests */,
+				EAA73FDC19CEB9B900FF9AC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAA73FDC19CEB9B900FF9AC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAA73FDB19CEB9B900FF9AC8 /* SwiftEverlive.app */,
+				EAA73FF019CEB9B900FF9AC8 /* SwiftEverliveTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAA73FDD19CEB9B900FF9AC8 /* SwiftEverlive */ = {
+			isa = PBXGroup;
+			children = (
+				EAA7400319CEC20300FF9AC8 /* Models */,
+				EAA73FE019CEB9B900FF9AC8 /* AppDelegate.swift */,
+				EAA73FE219CEB9B900FF9AC8 /* ViewController.swift */,
+				EAA73FE419CEB9B900FF9AC8 /* Main.storyboard */,
+				EAA73FE719CEB9B900FF9AC8 /* Images.xcassets */,
+				EAA73FE919CEB9B900FF9AC8 /* LaunchScreen.xib */,
+				EAA73FDE19CEB9B900FF9AC8 /* Supporting Files */,
+			);
+			path = SwiftEverlive;
+			sourceTree = "<group>";
+		};
+		EAA73FDE19CEB9B900FF9AC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAA73FDF19CEB9B900FF9AC8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAA73FF319CEB9B900FF9AC8 /* SwiftEverliveTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAA73FF619CEB9B900FF9AC8 /* SwiftEverliveTests.swift */,
+				EAA73FF419CEB9B900FF9AC8 /* Supporting Files */,
+			);
+			path = SwiftEverliveTests;
+			sourceTree = "<group>";
+		};
+		EAA73FF419CEB9B900FF9AC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAA73FF519CEB9B900FF9AC8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAA7400319CEC20300FF9AC8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EAA7400C19CF128800FF9AC8 /* Activities.m */,
+				EAA7400D19CF128800FF9AC8 /* Activities.h */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAA73FDA19CEB9B900FF9AC8 /* SwiftEverlive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA73FFA19CEB9B900FF9AC8 /* Build configuration list for PBXNativeTarget "SwiftEverlive" */;
+			buildPhases = (
+				EAA73FD719CEB9B900FF9AC8 /* Sources */,
+				EAA73FD819CEB9B900FF9AC8 /* Frameworks */,
+				EAA73FD919CEB9B900FF9AC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftEverlive;
+			productName = SwiftEverlive;
+			productReference = EAA73FDB19CEB9B900FF9AC8 /* SwiftEverlive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAA73FEF19CEB9B900FF9AC8 /* SwiftEverliveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA73FFD19CEB9B900FF9AC8 /* Build configuration list for PBXNativeTarget "SwiftEverliveTests" */;
+			buildPhases = (
+				EAA73FEC19CEB9B900FF9AC8 /* Sources */,
+				EAA73FED19CEB9B900FF9AC8 /* Frameworks */,
+				EAA73FEE19CEB9B900FF9AC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAA73FF219CEB9B900FF9AC8 /* PBXTargetDependency */,
+			);
+			name = SwiftEverliveTests;
+			productName = SwiftEverliveTests;
+			productReference = EAA73FF019CEB9B900FF9AC8 /* SwiftEverliveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAA73FD319CEB9B900FF9AC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = dobrev;
+				TargetAttributes = {
+					EAA73FDA19CEB9B900FF9AC8 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					EAA73FEF19CEB9B900FF9AC8 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = EAA73FDA19CEB9B900FF9AC8;
+					};
+				};
+			};
+			buildConfigurationList = EAA73FD619CEB9B900FF9AC8 /* Build configuration list for PBXProject "SwiftEverlive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAA73FD219CEB9B900FF9AC8;
+			productRefGroup = EAA73FDC19CEB9B900FF9AC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAA73FDA19CEB9B900FF9AC8 /* SwiftEverlive */,
+				EAA73FEF19CEB9B900FF9AC8 /* SwiftEverliveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAA73FD919CEB9B900FF9AC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA73FE619CEB9B900FF9AC8 /* Main.storyboard in Resources */,
+				EAA73FEB19CEB9B900FF9AC8 /* LaunchScreen.xib in Resources */,
+				EAA73FE819CEB9B900FF9AC8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA73FEE19CEB9B900FF9AC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAA73FD719CEB9B900FF9AC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA7400E19CF128800FF9AC8 /* Activities.m in Sources */,
+				EAA73FE319CEB9B900FF9AC8 /* ViewController.swift in Sources */,
+				EAA73FE119CEB9B900FF9AC8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA73FEC19CEB9B900FF9AC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA73FF719CEB9B900FF9AC8 /* SwiftEverliveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAA73FF219CEB9B900FF9AC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAA73FDA19CEB9B900FF9AC8 /* SwiftEverlive */;
+			targetProxy = EAA73FF119CEB9B900FF9AC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAA73FE419CEB9B900FF9AC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAA73FE519CEB9B900FF9AC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAA73FE919CEB9B900FF9AC8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAA73FEA19CEB9B900FF9AC8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAA73FF819CEB9B900FF9AC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAA73FF919CEB9B900FF9AC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAA73FFB19CEB9B900FF9AC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SwiftEverlive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = EverliveSdkBridgingHeader.h;
+			};
+			name = Debug;
+		};
+		EAA73FFC19CEB9B900FF9AC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SwiftEverlive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = EverliveSdkBridgingHeader.h;
+			};
+			name = Release;
+		};
+		EAA73FFE19CEB9B900FF9AC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftEverliveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftEverlive.app/SwiftEverlive";
+			};
+			name = Debug;
+		};
+		EAA73FFF19CEB9B900FF9AC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftEverliveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftEverlive.app/SwiftEverlive";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAA73FD619CEB9B900FF9AC8 /* Build configuration list for PBXProject "SwiftEverlive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA73FF819CEB9B900FF9AC8 /* Debug */,
+				EAA73FF919CEB9B900FF9AC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAA73FFA19CEB9B900FF9AC8 /* Build configuration list for PBXNativeTarget "SwiftEverlive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA73FFB19CEB9B900FF9AC8 /* Debug */,
+				EAA73FFC19CEB9B900FF9AC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EAA73FFD19CEB9B900FF9AC8 /* Build configuration list for PBXNativeTarget "SwiftEverliveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA73FFE19CEB9B900FF9AC8 /* Debug */,
+				EAA73FFF19CEB9B900FF9AC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAA73FD319CEB9B900FF9AC8 /* Project object */;
+}

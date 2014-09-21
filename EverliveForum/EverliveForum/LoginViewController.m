@@ -10,7 +10,9 @@
 #import <EverliveSDK/EverliveSDK.h>
 
 @interface LoginViewController ()
-
+{
+    
+}
 @end
 
 @implementation LoginViewController
