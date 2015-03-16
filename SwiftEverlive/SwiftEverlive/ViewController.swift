@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let myApiKey:NSString = "VjbxHASa7XQst2Wn"
+        let myApiKey:NSString = "YOUR_API_KEY"
         Everlive.setApplicationKey(myApiKey)
         
         // create an activity
